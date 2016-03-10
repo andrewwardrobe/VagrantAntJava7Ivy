@@ -18,7 +18,7 @@
 
 <target name="resolve">
 	<ivy:resolve file="ivy.xml" />
-	<ivy:cachepath refid="compile.classpath" />
+	<ivy:cachepath pathid="compile.classpath" />
 </target>
 
 <target name="jar" depends="compile">
